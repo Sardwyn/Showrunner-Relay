@@ -1,0 +1,24 @@
+KICK_USER=scraplet
+KICK_PASS=T3mpl4r01!
+
+# OAuth app
+KICK_CLIENT_ID=01K128NFT5ASBQ11CFDKRSRR1K
+KICK_CLIENT_SECRET=0496d4bf8e606afcf5b82728db7a3294fb664155f1e6ae797c7677dece4fcd6b
+REDIRECT_URI=https://scrapletshow.live/auth/kick/callback
+
+# Scopes you want (space-separated)
+KICK_OAUTH_SCOPE="events:subscribe chat:write user:read channel:read"
+
+# Your channel (for convenience)
+BROADCASTER_SLUG=scraplet
+
+# Webhook URL (public HTTPS endpoint that Kick can reach)
+WEBHOOK_URL=https://scrapletshow.live/api/webhook/kick
+
+# Ports
+AUTH_PORT=3030
+RELAY_PORT=3031
+
+KICK_OTP_SECRET=H4LHD4SZE7WDJYLQ
+
+
